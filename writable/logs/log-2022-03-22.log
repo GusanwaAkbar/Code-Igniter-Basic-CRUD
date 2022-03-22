@@ -1,0 +1,29 @@
+ERROR - 2022-03-22 10:35:41 --> Table 'skripsi.dosen' doesn't exist
+CRITICAL - 2022-03-22 10:35:41 --> Table 'skripsi.dosen' doesn't exist
+#0 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query()
+#4 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/BaseModel.php(1084): CodeIgniter\Model->countAllResults()
+#6 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/app/Controllers/Dosen.php(80): CodeIgniter\BaseModel->paginate()
+#7 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dosen->index()
+#8 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-03-22 10:35:41 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/Validation/FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/Validation/FormatRules.php(253): strtolower()
+#2 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/HTTP/RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip()
+#3 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/app/Views/errors/html/error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/Debug/Exceptions.php(229): include('...')
+#5 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/Debug/Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 /home/gusanwa/AA_Programming/Code_igniter/SISTEM_INFORMASI_B/skripsi/vendor/codeigniter4/framework/system/Debug/Exceptions.php(116): CodeIgniter\Debug\Exceptions->render()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

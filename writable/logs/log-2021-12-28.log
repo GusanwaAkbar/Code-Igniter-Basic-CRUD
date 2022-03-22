@@ -1,0 +1,115 @@
+CRITICAL - 2021-12-28 00:18:37 --> Invalid file: solid.php
+#0 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/app/Controllers/Home.php(9): view()
+#3 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#4 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+ERROR - 2021-12-28 00:32:15 --> Table 'skripsi.dosen' doesn't exist
+CRITICAL - 2021-12-28 00:32:15 --> Table 'skripsi.dosen' doesn't exist
+#0 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query()
+#4 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/BaseModel.php(1084): CodeIgniter\Model->countAllResults()
+#6 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/app/Controllers/Dosen.php(80): CodeIgniter\BaseModel->paginate()
+#7 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dosen->index()
+#8 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2021-12-28 00:32:24 --> Invalid file: tablezuy.php
+#0 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/app/Controllers/Mahasiswacontroller.php(16): view()
+#3 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Mahasiswacontroller->index()
+#4 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+ERROR - 2021-12-28 00:32:37 --> Table 'skripsi.dosen' doesn't exist
+CRITICAL - 2021-12-28 00:32:37 --> Table 'skripsi.dosen' doesn't exist
+#0 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query()
+#4 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/BaseModel.php(1084): CodeIgniter\Model->countAllResults()
+#6 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/app/Controllers/Dosen.php(80): CodeIgniter\BaseModel->paginate()
+#7 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dosen->index()
+#8 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2021-12-28 00:34:07 --> Table 'skripsi.dosen' doesn't exist
+CRITICAL - 2021-12-28 00:34:07 --> Table 'skripsi.dosen' doesn't exist
+#0 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query()
+#4 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/BaseModel.php(1084): CodeIgniter\Model->countAllResults()
+#6 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/app/Controllers/Dosen.php(80): CodeIgniter\BaseModel->paginate()
+#7 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dosen->index()
+#8 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2021-12-28 00:34:13 --> Invalid file: tablezuy.php
+#0 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/app/Controllers/Mahasiswacontroller.php(16): view()
+#3 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Mahasiswacontroller->index()
+#4 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-28 00:34:24 --> Invalid file: tablezuy.php
+#0 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/app/Controllers/Mahasiswacontroller.php(16): view()
+#3 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Mahasiswacontroller->index()
+#4 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+ERROR - 2021-12-28 00:36:21 --> Table 'skripsi.dosen' doesn't exist
+CRITICAL - 2021-12-28 00:36:21 --> Table 'skripsi.dosen' doesn't exist
+#0 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query()
+#4 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/BaseModel.php(1084): CodeIgniter\Model->countAllResults()
+#6 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/app/Controllers/Dosen.php(80): CodeIgniter\BaseModel->paginate()
+#7 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dosen->index()
+#8 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2021-12-28 00:39:04 --> Table 'skripsi.dosen' doesn't exist
+CRITICAL - 2021-12-28 00:39:04 --> Table 'skripsi.dosen' doesn't exist
+#0 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query()
+#4 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/BaseModel.php(1084): CodeIgniter\Model->countAllResults()
+#6 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/app/Controllers/Dosen.php(80): CodeIgniter\BaseModel->paginate()
+#7 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Dosen->index()
+#8 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /home/gusanwa/Programming/Code_igniter/Kelompok_6_Skripsi/skripsi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
